@@ -1,6 +1,6 @@
 # ETSPWEB
 ## ETS Pemrograman Web C - Kelompok
-**Anggota : **
+**Anggota :**
 
 **1. Muhammad Fikri Rabbani - 05111840000165**
 
