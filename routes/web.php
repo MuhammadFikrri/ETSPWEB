@@ -9,6 +9,8 @@ use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\CheckInController;
 use App\Http\Controllers\RoomController;
 use App\Http\Controllers\ReviewController;
+use App\Http\Controllers\ContactUsController;
+use App\Http\Controllers\CustomerServiceController;
 use App\Http\Controllers\AvailableRoomController;
 
 /*
@@ -74,6 +76,12 @@ Route::get('room', [RoomController::class, 'index']);
 
 //reviews
 Route::get('reviews', [ReviewController::class, 'index']);
+
+//contactus
+Route::get('contactus', [ContactUsController::class, 'index']);
+
+//customerservice
+Route::get('customerservice', [CustomerServiceController::class, 'index']);
 
 //available rooms
 Route::get('availableroom', [AvailableRoomController::class, 'index']);
