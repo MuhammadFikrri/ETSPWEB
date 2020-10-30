@@ -8,6 +8,7 @@ use App\Http\Controllers\FasilitasController;
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\CheckInController;
 use App\Http\Controllers\RoomController;
+use App\Http\Controllers\ReviewController;
 
 /*
 |--------------------------------------------------------------------------
@@ -69,3 +70,6 @@ Route::get('checkinstatus', [CheckInController::class, 'index']);
 
 //room
 Route::get('room', [RoomController::class, 'index']);
+
+//reviews
+Route::get('reviews', [ReviewController::class, 'index']);
