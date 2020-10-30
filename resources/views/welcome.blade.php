@@ -53,7 +53,7 @@
             <div style="float:right; width: 15vw;">
                 <ul style="margin-top: 0px;margin-bottom: 0px;">
                     @auth
-                    <li>Profile</li>
+                    <li><a href="/profile">Profile</a></li>
                     <li>Check in status</li>
                     <li>Facility</li>
                     <li>Rooms</li>
