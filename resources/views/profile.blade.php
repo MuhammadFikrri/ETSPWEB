@@ -20,15 +20,40 @@
             }
         </style>
     </head>
-    
+
 <body style="margin: 5% 20% 5% 20%">
     <h1> Profile </h1>
+    
+            <div>
 
-    @foreach($user as $u)
-    <p>Name : {{ $u->name }} </p>
-    <p>Email : {{ $u->email }} </p>
-    @endforeach
-
+                <div style="float:left; width: 35vw;">
+                    @foreach($user as $u)
+                    <p>Name : {{ $u->name }} </p>
+                    <p>Email : {{ $u->email }} </p>
+                    @endforeach
+                </div>
+                
+                <div style="float:right; width: 15vw;">
+                    <ul style="margin-top: 0px;margin-bottom: 0px;">
+                        @auth
+                        <li>Profile</li>
+                        <li>Check in status</li>                        
+                        <li><a href="/fasilitas">Facility</a></li> 
+                        <li>Rooms</li>
+                        <li>Available rooms</li>
+                        <li>Reviews</li>
+                        <li>Contact us</li>
+                        <li>Customer Service</li>
+                        @else
+                        <li><a href="/fasilitas">Facility</a></li>
+                        <li>Rooms</li>
+                        <li>Available rooms</li>
+                        <li>Reviews</li>
+                        <li>Contact us</li>
+                        @endif
+                    </ul>
+                </div>
+            </div>
     
 </body>
 
