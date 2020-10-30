@@ -53,15 +53,20 @@
             <div style="float:right; width: 15vw;">
                 <ul style="margin-top: 0px;margin-bottom: 0px;">
                     @auth
-                    <li>lorem</li>
-                    <li>ipsum</li>
-                    <li>dolor</li>
-                    <li>sit</li>
+                    <li>Profile</li>
+                    <li>Check in status</li>
+                    <li>Facility</li>
+                    <li>Rooms</li>
+                    <li>Available rooms</li>
+                    <li>Reviews</li>
+                    <li>Contact us</li>
+                    <li>Customer Service</li>
                     @else
-                    <li>amet</li>
-                    <li>consectetur</li>
-                    <li>adipisicing</li>
-                    <li>elit</li>
+                    <li>Facility</li>
+                    <li>Rooms</li>
+                    <li>Available rooms</li>
+                    <li>Reviews</li>
+                    <li>Contact us</li>
                     @endif
                 </ul>
             </div>
