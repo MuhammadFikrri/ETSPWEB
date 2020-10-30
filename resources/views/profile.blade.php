@@ -23,7 +23,7 @@
 
 <body style="margin: 5% 20% 5% 20%">
     <h1> Profile </h1>
-    
+
             <div>
 
                 <div style="float:left; width: 35vw;">
@@ -36,20 +36,21 @@
                 <div style="float:right; width: 15vw;">
                     <ul style="margin-top: 0px;margin-bottom: 0px;">
                         @auth
-                        <li>Profile</li>
-                        <li>Check in status</li>                        
-                        <li><a href="/fasilitas">Facility</a></li> 
-                        <li>Rooms</li>
-                        <li>Available rooms</li>
-                        <li>Reviews</li>
-                        <li>Contact us</li>
-                        <li>Customer Service</li>
-                        @else
+                        <li><a href="/">HomePage</a></li>
+                        <li><a href="/profile">Profile</a></li>
+                        <li><a href="/checkinstatus">Check in status</a></li>
                         <li><a href="/fasilitas">Facility</a></li>
-                        <li>Rooms</li>
-                        <li>Available rooms</li>
-                        <li>Reviews</li>
-                        <li>Contact us</li>
+                        <li><a href="/room">Rooms</a></li>
+                        <li><a href="/availableroom">Available rooms</a></li>
+                        <li><a href="/reviews">Reviews</a></li>
+                        <li><a href="/contactus">Contact us</a></li>
+                        <li><a href="/customerservice">Customer Service</a></li>
+                        @else
+                        <li><a href="/">HomePage</a></li>
+                        <li><a href="/room">Rooms</a></li>
+                        <li><a href="/availableroom">Available rooms</a></li>
+                        <li><a href="/reviews">Reviews</a></li>
+                        <li><a href="/contactus">Contact us</a></li>
                         @endif
                     </ul>
                 </div>
