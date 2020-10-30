@@ -30,7 +30,7 @@
                 <h1>Fasilitas yang didapat</h1>
 
                 <div style="float:left; width: 35vw;">
-                    <h2>Rubby</h2>
+                    <h2>VVIP</h2>
                     <p>
                         1. Kamar mandi <br>
                         - Soap and shampoo premium <br>
@@ -47,7 +47,7 @@
                     </p>
 
                     <h2>
-                        Emerald
+                        VIP
                     </h2>
                     <p>
                         1. Kamar mandi <br>
@@ -63,7 +63,7 @@
                     </p>
 
                     <h2>
-                        Platinum
+                        REGULER
                     </h2>
                     <p>
                         1. Kamar mandi <br>
