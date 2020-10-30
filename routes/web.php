@@ -5,6 +5,7 @@ use App\Http\Controllers\DosenController;
 use App\Http\Controllers\PegawaiController;
 use App\Http\Controllers\BlogController;
 use App\Http\Controllers\ProfileController;
+use App\Http\Controllers\CheckInController;
 
 /*
 |--------------------------------------------------------------------------
@@ -32,6 +33,9 @@ Route::get('/blog',[BlogController::class,'home'])->name('blog.home');
 Route::get('/blog/tentang',[BlogController::class,'tentang'])->name('blog.tentang');
 
 Route::get('/blog/kontak',[BlogController::class,'kontak'])->name('blog.kontak');
+
+//checkincontroller
+Route::get('checkinstatus', [CheckInController::class, 'index']);
 
 //profile
 Route::get('profile', [ProfileController::class, 'index']);
