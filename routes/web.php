@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\DosenController;
 use App\Http\Controllers\PegawaiController;
 use App\Http\Controllers\BlogController;
+use App\Http\Controllers\ProfileController;
 
 /*
 |--------------------------------------------------------------------------
@@ -31,6 +32,9 @@ Route::get('/blog',[BlogController::class,'home'])->name('blog.home');
 Route::get('/blog/tentang',[BlogController::class,'tentang'])->name('blog.tentang');
 
 Route::get('/blog/kontak',[BlogController::class,'kontak'])->name('blog.kontak');
+
+//profile
+Route::get('profile', [ProfileController::class, 'index']);
 
 //route CRUD
 Route::get('/pegawai',[PegawaiController::class,'index'])->name('pegawai.index');
