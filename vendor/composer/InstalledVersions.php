@@ -26,12 +26,12 @@ private static $installed = array (
   array (
     'asm89/stack-cors' => 
     array (
-      'pretty_version' => 'v2.0.1',
-      'version' => '2.0.1.0',
+      'pretty_version' => 'v2.0.2',
+      'version' => '2.0.2.0',
       'aliases' => 
       array (
       ),
-      'reference' => '23f469e81c65e2fb7fc7bce371fbdc363fe32adf',
+      'reference' => '8d8f88b3b3830916be94292c1fbce84433efb1aa',
     ),
     'bacon/bacon-qr-code' => 
     array (
@@ -240,217 +240,217 @@ private static $installed = array (
     array (
       'replaced' => 
       array (
-        0 => 'v8.12.1',
+        0 => 'v8.12.3',
       ),
     ),
     'illuminate/broadcasting' => 
     array (
       'replaced' => 
       array (
-        0 => 'v8.12.1',
+        0 => 'v8.12.3',
       ),
     ),
     'illuminate/bus' => 
     array (
       'replaced' => 
       array (
-        0 => 'v8.12.1',
+        0 => 'v8.12.3',
       ),
     ),
     'illuminate/cache' => 
     array (
       'replaced' => 
       array (
-        0 => 'v8.12.1',
+        0 => 'v8.12.3',
       ),
     ),
     'illuminate/collections' => 
     array (
       'replaced' => 
       array (
-        0 => 'v8.12.1',
+        0 => 'v8.12.3',
       ),
     ),
     'illuminate/config' => 
     array (
       'replaced' => 
       array (
-        0 => 'v8.12.1',
+        0 => 'v8.12.3',
       ),
     ),
     'illuminate/console' => 
     array (
       'replaced' => 
       array (
-        0 => 'v8.12.1',
+        0 => 'v8.12.3',
       ),
     ),
     'illuminate/container' => 
     array (
       'replaced' => 
       array (
-        0 => 'v8.12.1',
+        0 => 'v8.12.3',
       ),
     ),
     'illuminate/contracts' => 
     array (
       'replaced' => 
       array (
-        0 => 'v8.12.1',
+        0 => 'v8.12.3',
       ),
     ),
     'illuminate/cookie' => 
     array (
       'replaced' => 
       array (
-        0 => 'v8.12.1',
+        0 => 'v8.12.3',
       ),
     ),
     'illuminate/database' => 
     array (
       'replaced' => 
       array (
-        0 => 'v8.12.1',
+        0 => 'v8.12.3',
       ),
     ),
     'illuminate/encryption' => 
     array (
       'replaced' => 
       array (
-        0 => 'v8.12.1',
+        0 => 'v8.12.3',
       ),
     ),
     'illuminate/events' => 
     array (
       'replaced' => 
       array (
-        0 => 'v8.12.1',
+        0 => 'v8.12.3',
       ),
     ),
     'illuminate/filesystem' => 
     array (
       'replaced' => 
       array (
-        0 => 'v8.12.1',
+        0 => 'v8.12.3',
       ),
     ),
     'illuminate/hashing' => 
     array (
       'replaced' => 
       array (
-        0 => 'v8.12.1',
+        0 => 'v8.12.3',
       ),
     ),
     'illuminate/http' => 
     array (
       'replaced' => 
       array (
-        0 => 'v8.12.1',
+        0 => 'v8.12.3',
       ),
     ),
     'illuminate/log' => 
     array (
       'replaced' => 
       array (
-        0 => 'v8.12.1',
+        0 => 'v8.12.3',
       ),
     ),
     'illuminate/macroable' => 
     array (
       'replaced' => 
       array (
-        0 => 'v8.12.1',
+        0 => 'v8.12.3',
       ),
     ),
     'illuminate/mail' => 
     array (
       'replaced' => 
       array (
-        0 => 'v8.12.1',
+        0 => 'v8.12.3',
       ),
     ),
     'illuminate/notifications' => 
     array (
       'replaced' => 
       array (
-        0 => 'v8.12.1',
+        0 => 'v8.12.3',
       ),
     ),
     'illuminate/pagination' => 
     array (
       'replaced' => 
       array (
-        0 => 'v8.12.1',
+        0 => 'v8.12.3',
       ),
     ),
     'illuminate/pipeline' => 
     array (
       'replaced' => 
       array (
-        0 => 'v8.12.1',
+        0 => 'v8.12.3',
       ),
     ),
     'illuminate/queue' => 
     array (
       'replaced' => 
       array (
-        0 => 'v8.12.1',
+        0 => 'v8.12.3',
       ),
     ),
     'illuminate/redis' => 
     array (
       'replaced' => 
       array (
-        0 => 'v8.12.1',
+        0 => 'v8.12.3',
       ),
     ),
     'illuminate/routing' => 
     array (
       'replaced' => 
       array (
-        0 => 'v8.12.1',
+        0 => 'v8.12.3',
       ),
     ),
     'illuminate/session' => 
     array (
       'replaced' => 
       array (
-        0 => 'v8.12.1',
+        0 => 'v8.12.3',
       ),
     ),
     'illuminate/support' => 
     array (
       'replaced' => 
       array (
-        0 => 'v8.12.1',
+        0 => 'v8.12.3',
       ),
     ),
     'illuminate/testing' => 
     array (
       'replaced' => 
       array (
-        0 => 'v8.12.1',
+        0 => 'v8.12.3',
       ),
     ),
     'illuminate/translation' => 
     array (
       'replaced' => 
       array (
-        0 => 'v8.12.1',
+        0 => 'v8.12.3',
       ),
     ),
     'illuminate/validation' => 
     array (
       'replaced' => 
       array (
-        0 => 'v8.12.1',
+        0 => 'v8.12.3',
       ),
     ),
     'illuminate/view' => 
     array (
       'replaced' => 
       array (
-        0 => 'v8.12.1',
+        0 => 'v8.12.3',
       ),
     ),
     'jaybizzle/crawler-detect' => 
@@ -489,12 +489,12 @@ private static $installed = array (
     ),
     'laravel/framework' => 
     array (
-      'pretty_version' => 'v8.12.1',
-      'version' => '8.12.1.0',
+      'pretty_version' => 'v8.12.3',
+      'version' => '8.12.3.0',
       'aliases' => 
       array (
       ),
-      'reference' => '4b5faf5b10cd9c87b12e2719f8c778ce921f0b2d',
+      'reference' => '6707480c5f0db7aa07537f9ad93255b64b65b85e',
     ),
     'laravel/jetstream' => 
     array (
