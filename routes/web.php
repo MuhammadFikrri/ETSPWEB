@@ -6,6 +6,7 @@ use App\Http\Controllers\PegawaiController;
 use App\Http\Controllers\BlogController;
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\CheckInController;
+use App\Http\Controllers\FasilitasController;
 
 /*
 |--------------------------------------------------------------------------
@@ -60,3 +61,6 @@ Route::get('/pegawai/hapus/{id}',[PegawaiController::class,'hapus'])->name('pega
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
     return view('dashboard');
 })->name('dashboard');
+
+//fasilitas
+Route::get('/fasilitas',[FasilitasController::class,'index'])->name('fasilitas.index');
