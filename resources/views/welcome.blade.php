@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Hotelku</title>
+        <title>Facility</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
@@ -20,57 +20,42 @@
             }
         </style>
     </head>
-    <body>
-    <div style="margin: 5% 20% 5% 20%">
-        <div style="float:right">
-            @if (Route::has('login'))
-                <div>
-                    @auth
-                        <form method="POST"  action="{{ route('logout') }}">
-                        @csrf
-                        <a href="{{ route('logout') }}" onclick="event.preventDefault();
-                                                            this.closest('form').submit();"
-                                                            style="padding: 5px">Logout</a>
-                        </form>
-                    @else
-                        <a href="{{ route('login') }}" style="padding: 5px">Login</a>
 
-                        @if (Route::has('register'))
-                            <a href="{{ route('register') }}" style="padding: 5px">Register</a>
-                        @endif
-                    @endif
+<body style="margin: 5% 20% 5% 20%">
+    <h1> Profile </h1>
+
+            <div>
+
+                <div style="float:left; width: 35vw;">
+                    @foreach($user as $u)
+                    <p>Name : {{ $u->name }} </p>
+                    <p>Email : {{ $u->email }} </p>
+                    @endforeach
                 </div>
-            @endif  
-        </div>
+                
+                <div style="float:right; width: 15vw;">
+                    <ul style="margin-top: 0px;margin-bottom: 0px;">
+                        @auth
+                        <li><a href="/">HomePage</a></li>
+                        <li><a href="/profile">Profile</a></li>
+                        <li><a href="/checkinstatus">Check in status</a></li>
+                        <li><a href="/fasilitas">Facility</a></li>
+                        <li><a href="/room">Rooms</a></li>
+                        <li><a href="/availableroom">Available rooms</a></li>
+                        <li><a href="/reviews">Reviews</a></li>
+                        <li><a href="/contactus">Contact us</a></li>
+                        <li><a href="/customerservice">Customer Service</a></li>
+                        @else
+                        <li><a href="/">HomePage</a></li>
+                        <li><a href="/room">Rooms</a></li>
+                        <li><a href="/availableroom">Available rooms</a></li>
+                        <li><a href="/reviews">Reviews</a></li>
+                        <li><a href="/contactus">Contact us</a></li>
+                        @endif
+                    </ul>
+                </div>
+            </div>
+    
+</body>
 
-        <div>
-            <h1> hotelku </h1>
-        </div>
-        <div>
-            <div style="float:left; width: 35vw;">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet animi a tempora quaerat vitae. Ut aperiam placeat, nesciunt perspiciatis, dolorum accusamus enim est suscipit facilis exercitationem delectus quidem repudiandae fugit!
-            </div>
-            <div style="float:right; width: 15vw;">
-                <ul style="margin-top: 0px;margin-bottom: 0px;">
-                    @auth
-                    <li><a href="/profile">Profile</a></li>
-                    <li>Check in status</li>
-                    <li>Facility</li>
-                    <li>Rooms</li>
-                    <li>Available rooms</li>
-                    <li>Reviews</li>
-                    <li>Contact us</li>
-                    <li>Customer Service</li>
-                    @else
-                    <li>Facility</li>
-                    <li>Rooms</li>
-                    <li>Available rooms</li>
-                    <li>Reviews</li>
-                    <li>Contact us</li>
-                    @endif
-                </ul>
-            </div>
-        </div>
-        </div>
-    </body>
 </html>
