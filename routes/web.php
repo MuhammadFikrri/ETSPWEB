@@ -4,9 +4,10 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\DosenController;
 use App\Http\Controllers\PegawaiController;
 use App\Http\Controllers\BlogController;
+use App\Http\Controllers\FasilitasController;
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\CheckInController;
-use App\Http\Controllers\FasilitasController;
+use App\Http\Controllers\RoomController;
 
 /*
 |--------------------------------------------------------------------------
@@ -35,12 +36,6 @@ Route::get('/blog/tentang',[BlogController::class,'tentang'])->name('blog.tentan
 
 Route::get('/blog/kontak',[BlogController::class,'kontak'])->name('blog.kontak');
 
-//checkincontroller
-Route::get('checkinstatus', [CheckInController::class, 'index']);
-
-//profile
-Route::get('profile', [ProfileController::class, 'index']);
-
 //route CRUD
 Route::get('/pegawai',[PegawaiController::class,'index'])->name('pegawai.index');
 
@@ -58,9 +53,19 @@ Route::post('/pegawai/update',[PegawaiController::class,'update'])->name('pegawa
 
 //hapus pegawai
 Route::get('/pegawai/hapus/{id}',[PegawaiController::class,'hapus'])->name('pegawai.hapus');
+
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
     return view('dashboard');
 })->name('dashboard');
 
 //fasilitas
 Route::get('/fasilitas',[FasilitasController::class,'index'])->name('fasilitas.index');
+
+//profile
+Route::get('profile', [ProfileController::class, 'index']);
+
+//checkincontroller
+Route::get('checkinstatus', [CheckInController::class, 'index']);
+
+//room
+Route::get('room', [RoomController::class, 'index']);
